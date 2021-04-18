@@ -15,7 +15,7 @@ jobs:
       - name: Instalar as deps do server
         uses: bahmutov/npm-install@v1
         with:
-          working-diretory: server
+          working-directory: server
           
       - name: Instalar as deps do web
         uses: bahmutov/npm-install@v1
