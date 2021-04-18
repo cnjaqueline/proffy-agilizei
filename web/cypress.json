@@ -1,0 +1,9 @@
+{
+  "baseUrl": "http://localhost:3000/",
+  "apiUrl": "http://localhost:3333",
+  "experimentalComponentTesting": true,
+  "componentFolder": "cypress/component",
+  "testFiles": "**/*.spec.{js,ts,jsx,tsx}",
+  "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
+  "projectId": "wfihjy"
+}
