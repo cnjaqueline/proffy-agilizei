@@ -10,14 +10,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        
       - name: Instalar as deps do server
         uses: bahmutov/npm-install@v1
         with:
           working-diretory: server
+          
       - name: Instalar as deps do web
         uses: bahmutov/npm-install@v1
         with:
           working-diretory: web
+          
       - name: Component & API & UI Tests
         uses: cypress-io/github-action@v2
         with:
