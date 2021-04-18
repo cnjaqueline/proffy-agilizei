@@ -20,7 +20,7 @@ jobs:
       - name: Instalar as deps do web
         uses: bahmutov/npm-install@v1
         with:
-          working-diretory: web
+          working-directory: web
           
       - name: Component & API & UI Tests
         uses: cypress-io/github-action@v2
